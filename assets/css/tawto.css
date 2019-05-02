@@ -1,0 +1,161 @@
+nav{
+	border-bottom: 1px solid rgb(205, 211, 210);
+}
+.bg-white{
+	background-color: white;
+}
+.navbar .navbar-nav li a{
+	color: black;
+	font-weight: 500;
+}
+.nav-link{
+	margin-right: 10px;
+}
+.navbar-brand{
+	font-weight: 700;
+	color: green;
+	font-size: 2.5rem;
+}
+.active{
+	border-bottom: 1px solid green;
+	color: green !important;
+}
+.display-3{
+	margin-top: 10%;
+}
+.display-4{
+	font-size: 2.5rem;
+}
+.body-text{
+	font-size: 1.5rem;
+	font-weight: 200;
+}
+.body-text2{
+	font-size: 1.1rem;
+}
+.text-bold{
+	font-weight: 700;
+}
+#bird-image{
+	background-image: url(../img/pitch2.png);
+	background-size: cover;
+	padding-top: 70%;
+	height: 200px;
+	background-repeat: no-repeat;
+}
+.bg-grey{
+	background-color: rgb(209, 214, 213);
+}
+.icon-background{
+	color: rgb(209, 214, 213);
+}
+.fa-circle{
+	color: green;
+}
+.icon-color{
+	color: white;
+}
+.dark-border{
+	border: 5px solid rgb(201, 205, 211);
+}
+.quote-color{
+	color:  rgb(201, 205, 211);
+}
+.question a{
+	/*color: grey;*/
+	font-size: 1.2rem;
+	font-weight: 200;
+	text-decoration: none;
+}
+.dot{
+	font-weight: 700;
+	font-size: 3rem;
+}
+/*.btn .btn-outline-dark:hover{
+	background-color: white !important;
+	color: black !important;
+
+}*/
+.dark-btn{
+	border: 1px solid black;
+	border-radius: 3px;
+	background-color: white !important;
+	color: black !important;
+
+}
+.dark-btn:hover{
+	border: 1px solid black;
+	border-radius: 3px;
+	background-color: grey !important;
+	color: white !important;
+
+}
+#secondary-footer .display-4{
+	font-size: 1.5rem;
+}
+.title{
+	font-size: 2rem;
+	font-weight: 200;
+}
+.sub-title{
+	margin-top: -2%;
+}
+.sub-title li a{
+	font-size: 0.8rem;
+	font-weight: 420;
+	color: rgba(84, 206, 84, 0.884);
+}
+.sub-title li a:hover{
+	text-decoration: none;
+	color: rgb(102, 117, 102);
+}
+.sub-title span{
+	color: black;
+}
+.sub-title li{
+	margin-left: -10%;
+}
+
+.dropdown-item:hover{
+	border-bottom: 1px solid green;
+	background: white;
+	/* margin: 0 auto; */
+	/* width: 50%; */
+		/* border-left: 10px !important; */
+	/* transition: ease 5.5s; */
+}
+
+#wrapper{
+	/* margin-top: 20%; */
+	margin-top: 45%;
+}
+
+#page-content-wrapper{
+	margin-top: 20%;
+	margin-bottom: 10%;
+}
+
+.sidebar-nav li {
+	list-style-type: none;
+	
+}
+
+/* .sidebar-nav li:hover {
+	background: rgba(128, 128, 128, 0.219);
+	height: 150%;
+} */
+.sidebar-nav li a{
+	color: rgba(84, 206, 84, 0.932);
+	text-decoration: none;
+}
+
+/*show drop-down menu on hover*/
+.dropdown:hover .dropdown-menu{
+	display: block;
+}
+
+/*remove dropdown sign*/
+.dropdown-toggle::after{
+	display: none;
+}
+
